@@ -1,7 +1,7 @@
 {
-  "name": "@australis/data-url-to-buffer",  
+  "name": "@australis/data-url-to-buffer",
   "version": "1.0.0",
-  "description": "",
+  "description": "node data-url to buffer",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -18,7 +18,9 @@
     "jest": "22.4.3",
     "typescript": "2.9.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ts-jest": "23.0.0"
+  },
   "jest": {
     "globals": {
       "ts-jest": {
@@ -40,5 +42,13 @@
   },
   "engines": {
     "node": ">=0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/australis-technica/data-url-to-buffer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/australis-technica/data-url-to-buffer/issues"
+  },
+  "homepage": "https://github.com/australis-technica/data-url-to-buffer#readme"
 }
